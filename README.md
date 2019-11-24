@@ -37,9 +37,21 @@
                       、
         v: ｜_0_｜_1_｜_2_｜_3_｜
 
-        
+範例：
 
+    void increment() {
 
+        char c[5] = {'q', 'u', 'e', 'e', 'n'};
 
+        for (auto& x : c) // 將變數容器 x 指向某元素，則利用這容器盒子表面貼上一個 & 記號
+            ++x;
+            std::cout << c << '\n';
+    }
 
+    int main(){
+
+        increment();
+        return 0;
+
+    }
 
