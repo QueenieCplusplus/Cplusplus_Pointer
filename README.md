@@ -57,5 +57,5 @@
     
 Problem shall be resolved:
 
-'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    'auto' type specifier is a C++11 extension [-Wc++11-extensions]
 
