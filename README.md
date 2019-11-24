@@ -1,6 +1,8 @@
 # Cplusplus_Pointer
 指標的運用
 
+本 code base 會運用 for 迴圈、 array 陣列、pointer 指標。
+
 宣告指標的方式：
 
     // 陣列下限(lower bound)為 0，則代表這個元素為字元的陣列 v 
